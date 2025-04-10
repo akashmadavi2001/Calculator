@@ -1,4 +1,4 @@
-var display = document.getElementById('display');
+var display = document.querySelector('.display');
 var button = document.querySelectorAll('button');
 var string = "";
 var arr = Array.from(button);
@@ -16,11 +16,7 @@ arr.forEach(button => {
             string = string.substring(0, string.length - 1);
             display.value = string;
         }
-        else if (e.target.innerHTML == '%') {
-            string = string / 100;
-            display.value = string;
-        }
-        else {
+          else {
             string += e.target.innerHTML;
             display.value = string;
         }
