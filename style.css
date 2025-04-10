@@ -63,7 +63,7 @@ button:active {
     color: blue;
 }
 
-.equal {
+.equal ,.AC {
     width: 140px;
     color: aqua;
     background-color: rgb(120, 120, 120);
