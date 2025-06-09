@@ -69,7 +69,8 @@ button:active {
     transform: scale(0.95);
 }
 
-.equal,.AC {
+.equal,
+.AC {
     width: 150px;
     color: aqua;
     background-color: rgb(120, 120, 120);
