@@ -20,5 +20,5 @@ arr.forEach(button => {
             string += e.target.innerHTML;
             display.value = string;
         }
-    })
-})
+    });
+});
