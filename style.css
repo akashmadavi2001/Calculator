@@ -58,7 +58,7 @@ button {
     color: white;
     font-size: 1.5rem;
     border: none;
-    box-shadow: 2px 2px 5px rgba(62, 62, 62, 0.663), -2px -2px 5px rgba(169, 169, 169, 0.663);
+    box-shadow: 2px 2px 5px rgba(62, 62, 62, 0.663), -2px -2px 5px rgba(169, 169, 169, 0.666);
 }
 
 button:hover {
@@ -80,3 +80,4 @@ button:active {
     background-color: rgb(120, 120, 120);
     color: aqua;
 }
+
