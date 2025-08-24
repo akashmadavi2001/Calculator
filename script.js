@@ -2,6 +2,7 @@ var display = document.querySelector('.display');
 var button = document.querySelectorAll('button');
 var string = "";
 var arr = Array.from(button);
+
 arr.forEach(button => {
     button.addEventListener('click', (e) => {
         if (e.target.innerHTML == '=') {
@@ -22,3 +23,4 @@ arr.forEach(button => {
         }
     });
 });
+
